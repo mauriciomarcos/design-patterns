@@ -25,3 +25,15 @@ O padrão Singleton desabilita todos os outros meios de criar objetos de uma cla
 <div align="center">
   <a href="https://github.com/mauriciomarcos/design-patterns/tree/main/DesignParttensSolution/src/Singleton">Código implementação do Pattnen Singleton</a>
 </div>
+
+# Factory Method
+## O Factory method é um padrão de projeto criacional, que resolve o problema de criar objetos de produtos sem especificar suas classes concretas.
+
+O Factory Method define um método, que deve ser usado para criar objetos em vez da chamada direta ao construtor (operador new). As subclasses podem substituir esse método para alterar a classe de objetos que serão criados.
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/8028269/164765728-fee8798b-4b81-4e43-b91d-5a854fd27382.png"/>
+</div>
+<div align="center">
+  <a href="https://github.com/mauriciomarcos/design-patterns/tree/main/DesignParttensSolution/src/FactoryMethod">Código implementação do Pattnen Factory Method</a>
+</div>
