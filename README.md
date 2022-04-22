@@ -12,3 +12,16 @@ O objeto original, chamado contexto, mantém uma referência a um objeto strateg
 <div align="center">
   <a href="https://github.com/mauriciomarcos/design-patterns/tree/main/DesignParttensSolution/src/Strategy">Código implementação do Pattnen Strategy</a>
 </div>
+
+# Singleton
+## O Singleton é um padrão de projeto criacional que permite a você garantir que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância.
+
+Utilize o padrão Singleton quando uma classe em seu programa deve ter apenas uma instância disponível para todos seus clientes; por exemplo, um objeto de base de dados único compartilhado por diferentes partes do programa.
+O padrão Singleton desabilita todos os outros meios de criar objetos de uma classe exceto pelo método especial de criação. Esse método tanto cria um novo objeto ou retorna um objeto existente se ele já tenha sido criado.
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/8028269/164707208-03f5c793-94a4-42a2-b1f6-43ac3488e6c0.png"/>
+</div>
+<div align="center">
+  <a href="https://github.com/mauriciomarcos/design-patterns/tree/main/DesignParttensSolution/src/Singleton">Código implementação do Pattnen Singleton</a>
+</div>
