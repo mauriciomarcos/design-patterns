@@ -5,7 +5,7 @@ namespace FactoryMethod.Entities.Implementation
 {
     internal class Pizza : IProduct
     {
-        public string Nome => "Pizza";
+        public string Nome => nameof(Pizza);
 
         public IList<string> Ingredientes => new List<string>() { "Molho", "Oregano", "Azeitona", "Queijo", "Manjerição" };        
     }
